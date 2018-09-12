@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/*
+   
+   Author 1: Victor Hugo Paramo Orta A01169298
+   Date: 08/09/18
+
+   Filename: examen.css
+   
+*/
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.icons-div{
+    width: 10%;
+    height: 100%;
+    /* background-color: red; */
+}
+.line01 {
+    width: 45%;
+    height: 2%;
+    background-color: black;
+    position: absolute;
+    top: 8%;
+    z-index: 2;
+}
+.line03 {
+    width: 0.25%;
+    height: 15%;
+    background-color: black;
+    position: absolute;
+    top: 11%;
+    left: 3%;
+    z-index: 2;
+}
+.line02 {
+    width: 35%;
+    height: 2%;
+    background-color: black;
+    position: absolute;
+    top: 8%;
+    left: 65%;
+    z-index: 2;
+}
+.line04 {
+    width: 0.25%;
+    height: 15%;
+    background-color: black;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+    z-index: 2;
+}
+.bars-div{
+    width: 5%;
+    height: 15%;
+    top: 40%;
+    position: relative;
+    left: 5%;
+}
+.bars{
+    float: right;
+    width: 60%;
+    height: 4%;
+    margin-top: 25%;
+    background-color: gray;
+    border-radius: 20% 0 0 20%;
+    transition: all 1s ease-in-out;
+}
+.bars.active{
+    width: 80%;
+    background-color: black;
+}
+.page {
+    width: 80%;
+    height: 90%;
+    top: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+#firstImage {
+    width: 50%;
+    height:  400%;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+#secondImage {
+    width: 50%;
+    height:  400%;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease-in-out; 
+}
+#firstImage > img {
+    width: 200%;
+    height:  25%;
+    position: absolute;
+}
+#secondImage > img {
+    width: 200%;
+    height:  25%;
+    position: absolute;
+    left: -100%;
+}
+#img01_01 {
+    top: 0;
+}
+#img01_02 {
+    top: 25%;
+}
+#img01_03 {
+    top: 50%;
+}
+#img01_04 {
+    top: 75%;
+}
+#img02_01 {
+    top: 0;
+}
+#img02_02 {
+    top: 25%;
+}
+#img02_03 {
+    top: 50%;
+}
+#img02_04 {
+    top: 75%;
+}
+.nameList {
+    width: 75%;
+    height:  8vw;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    z-index: 1;
+    overflow: hidden;
+}
+.transitionList {
+    width: 100%;
+    height:  auto;
+    position: relative;
+    transition: all 1s ease-in-out; 
+}
+.phrase {
+    width: 100%;
+    height:  100%;
+    text-align: center;
+    font-size: 8vw;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+}
+.fa-facebook-f {
+    position: absolute;
+    left: 2.68%;
+    top: 35%;
+}
+.fa-wifi {
+    position: absolute;
+    left: 2%;
+    top: 42%;
+}
+.fa-pinterest-square {
+    position: absolute;
+    left: 2.4%;
+    top: 49%;
+}
+.fa-instagram {
+    position: absolute;
+    left: 2.4%;
+    top: 57%;
+}
